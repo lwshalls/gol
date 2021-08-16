@@ -1,6 +1,6 @@
 import math
 import numpy
-
+import random
 """Define binary states for alive status"""
 DEAD = 0
 ALIVE = 1
@@ -16,11 +16,4 @@ def state_width(state):
 def state_length(state):
      return len(state[0])
 
-def ranstate():
-    a = initstate(4,4)
-
- # TODO: randomize each element of `state`
-a = initstate(4,7)
-b = state_width(a), state_length(a)
-print(a, b)
 
